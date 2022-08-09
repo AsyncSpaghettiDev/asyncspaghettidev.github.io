@@ -1,0 +1,130 @@
+/*
+    =========
+    Home Page
+    =========
+*/
+
+.greeting {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.my-name,
+.my-name span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.my-name {
+    color: var(--clr-gold);
+    letter-spacing: 3px;
+}
+
+.my-name span {
+    color: var(--clr-white);
+}
+
+.overwiew{
+    line-height: 1.5;
+}
+
+/*
+    ==========
+    About Page
+    ==========
+*/
+
+.about-heading {
+    width: 100%;
+}
+
+.info h3 {
+    align-items: center;
+    font-size: 1.25rem;
+    color: var(--clr-gold);
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.info h3 span {
+    color: var(--clr-white);
+    margin-right: 1ch;
+    font-weight: bold;
+}
+
+/*
+    ==============
+    Education Page
+    ==============
+*/
+.timeline {
+    width: 100%;
+    gap: 1em;
+    justify-content: center;
+    padding-inline: 0.5em;
+}
+
+.college {
+    flex: 1;
+    max-width: 45ch;
+    border-radius: 1em;
+    padding: 0.5em;
+    background-color: #292929;
+    transition: background-color 250ms ease-in;
+}
+
+.college:hover {
+    background-color: #2e2e2e;
+}
+
+.education-title .era,
+.education-title .icon {
+    border: 1px solid var(--clr-gold);
+}
+
+.education-title .icon {
+    display: grid;
+    place-items: center;
+    width: 3.5ch;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.college .degree {
+    color: var(--clr-gold);
+    font-family: var(--font-primary);
+    margin-block: 0.25em;
+}
+
+.college .description {
+    font-size: 0.9rem;
+}
+
+/*
+    ==============
+    Portfolio Page
+    ==============
+*/
+
+.portfolio h4{
+    width: 100%;
+}
+
+/*
+    ===============
+    Contact Me Page
+    ===============
+*/
+
+.info .icon{
+    margin-right: 0.75ch;
+}
+
+.contact-link{
+    color: var(--clr-gold);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
